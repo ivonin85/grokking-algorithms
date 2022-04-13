@@ -1,12 +1,14 @@
 package rf.ivonin.binarySearch;
 
+import org.testng.annotations.Test;
 import java.util.Arrays;
 
 import static rf.ivonin.bubbleSort.BubbleSort.sort;
 
 public class BinarySearch {
 
-    public static void main(String[] args) {
+    @Test
+    void binarySearchTest() {
         var intArray = new int[]{15, 90, 0, 1, 7, 98, 65, 9, 11, 42};
         var sortedArray = sort(intArray);
         System.out.println(binarySearch(sortedArray, 90));
