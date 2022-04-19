@@ -11,7 +11,7 @@ public class BinarySearch {
     void binarySearchTest() {
         var intArray = new int[]{15, 90, 0, 1, 7, 98, 65, 9, 11, 42};
         var sortedArray = sort(intArray);
-        System.out.println(binarySearch(sortedArray, 90));
+        System.out.println(binarySearch(sortedArray, 42));
 
 
 
